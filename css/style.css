@@ -1,0 +1,88 @@
+.container{
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.header{
+    background-color: rgb(129, 19, 19);
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.navbar{
+    background-color: #999;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.content{
+    background-color:rgb(255, 255, 255); 
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+.produto1{
+    background-color: #ffffff;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.produto2{
+    background-color: rgb(167, 167, 167);
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.footer{
+    background-color: rgb(129, 19, 19);
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.btn{
+    background-color: #FFA500;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+   
+}
+.btn_2{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+
+}
+.btn_3{
+    background-color: #FFA500;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 5%;
+}
+.btn_4{
+    background-color: #FFA500;
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    
+
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .header, .navbar, .content, .content2, .produto1, .produto2, .footer {
+      width: 100%;
+    }
+
+    .header img{
+        width: 50%;
+    }
+  }
